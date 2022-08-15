@@ -1,0 +1,14 @@
+.place__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+}
+
+@media (max-width: 767px) {
+  .place__text {
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+

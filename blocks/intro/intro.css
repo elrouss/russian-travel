@@ -1,0 +1,27 @@
+.intro {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1279px) {
+  .intro {
+    padding-left: 28px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .intro {
+    max-width: 720px;
+    padding-left: calc(24px + (4 + 4 * .7) * (100vw - 768px) / 1023);
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    max-width: calc(288px + (432 + 432 * .7) * (100vw - 320px) / 767);
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

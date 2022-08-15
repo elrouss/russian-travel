@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 92px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1279px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+    transition: all .25s linear;
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    min-width: 186px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 164px;
+    flex-direction: column;
+    align-items: baseline;
+    row-gap: 48px;
+  }
+}

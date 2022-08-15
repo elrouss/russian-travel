@@ -1,0 +1,15 @@
+.place__website_url_heading {
+  font-size: 12px;
+  line-height: calc(12 / 12 * 100%);
+  letter-spacing: 2px;
+  color: #aaa;
+  grid-column: 2;
+  grid-row: 1;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .place__website_url_heading {
+    padding-bottom: 12px;
+  }
+}

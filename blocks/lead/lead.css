@@ -1,0 +1,26 @@
+.lead {
+  margin: 56px 148px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1279px) {
+  .lead {
+    margin-top: 48px;
+    transition: all .25s linear;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead {
+    margin-top: 50px;
+  }
+}

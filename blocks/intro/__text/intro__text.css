@@ -1,0 +1,19 @@
+.intro__text {
+  margin: 0;
+  padding-top: 40px;
+  max-width: 690px;
+  font-size: 16px;
+  line-height: calc(26 / 16 * 100%);
+}
+
+@media (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro__text {
+    max-width: calc(288px + (432 + 432 * .7) * (100vw - 320px) / 767);
+  }
+}

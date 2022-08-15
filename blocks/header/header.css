@@ -1,0 +1,28 @@
+.header {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1279px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+    transition: all .25s linear;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-basis: 288px;
+    margin: 16px 16px 0;
+  }
+}

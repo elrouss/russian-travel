@@ -1,0 +1,19 @@
+.header__lang_link_ru {
+  padding: 0;
+  max-width: 30px;
+  max-height: 28px;
+  color: inherit;
+  transition: opacity .3s ease;
+}
+
+.header__lang_link_ru:hover {
+  opacity: .8;
+}
+
+@media (max-width: 767px) {
+  .header__lang_link_ru {
+    max-width: 22px;
+    max-height: 20px;
+    transition: all .25s linear;
+  }
+}
