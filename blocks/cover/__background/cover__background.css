@@ -3,6 +3,10 @@
   max-width: 1184px;
   min-height: 740px;
   height: 100%;
+  background-image: url(../../../images/cover-baikal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,33 +18,30 @@
 
 .cover__background::before {
   content: '';
-  background-image: url(../../../images/cover-baikal.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: .3;
+  transition: opacity 1s ease-in-out;
+}
+
+.cover__background:hover::before {
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   opacity: .8;
-}
-
-.cover__background:hover::before {
-  content: '';
-  background-color: #2a2c2f;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: .3;
   z-index: 100;
-  transition: opacity .5s ease-in-out;
 }
 
 @media (max-width: 1279px) {
   .cover__background {
-    max-width: 100vw;
+    max-width: 100%;
     min-height: calc(640px + (100 + 100 * .7) * (100vw - 1024px) / 1279);
   }
 }

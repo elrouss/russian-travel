@@ -1,8 +1,6 @@
-.header__lang {
+.header__lang-links {
   margin: 0;
   padding: 18px 0 0;
-  max-width: 77px;
-  max-height: 30px;
   font-size: 24px;
   line-height: calc(28 / 24 * 100%);
   list-style-type: none;
@@ -12,10 +10,9 @@
 }
 
 @media (max-width: 767px) {
-  .header__lang {
+  .header__lang-links {
     padding-top: 14px;
     font-size: 18px;
     line-height: calc(20 / 18 * 100%);
-    transition: all .25s linear;
   }
 }
