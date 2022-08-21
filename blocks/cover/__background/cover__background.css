@@ -29,14 +29,7 @@
 }
 
 .cover__background:hover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   opacity: .8;
-  z-index: 100;
 }
 
 @media (max-width: 1279px) {

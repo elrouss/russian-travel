@@ -1,7 +1,7 @@
 .place {
   padding: 0 100px 80px;
   display: grid;
-  grid-template: auto / repeat(auto-fit, minmax(460px, 1fr));
+  grid-template: auto / minmax(460px, 1fr);
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -14,7 +14,7 @@
   .place {
     padding-left: 48px;
     padding-right: 48px;
-    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    grid-template-columns: minmax(440px, 1fr);
     column-gap: 32px;
   }
 }
@@ -24,7 +24,7 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 73px;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: minmax(340px, 1fr);
     column-gap: 28px;
   }
 }

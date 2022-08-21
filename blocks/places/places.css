@@ -1,16 +1,16 @@
 .places {
-  margin-top: 82px;
+  margin-top: 90px;
 }
 
 @media (max-width: 1279px) {
   .places {
-    margin-top: 77px;
+    margin-top: 88px;
   }
 }
 
 @media (max-width: 1023px) {
   .places {
-    margin-top: 69px;
+    margin-top: 86px;
   }
 }
 

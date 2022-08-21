@@ -4,6 +4,7 @@
   line-height: calc(12 / 12 * 100%);
   letter-spacing: 2px;
   color: #aaa;
+  text-transform: uppercase;
   grid-column: 2;
   grid-row: 1;
   padding-bottom: 30px;

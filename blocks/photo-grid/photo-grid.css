@@ -4,31 +4,35 @@
   list-style-type: none;
   display: grid;
   grid-template: auto / repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
+  column-gap: 16px;
+  row-gap: 12px;
+
 }
 
 @media (max-width: 1279px) {
   .photo-grid {
-    gap: 14px;
     margin-left: 48px;
     margin-right: 48px;
+    column-gap: 14px;
+    row-gap: 10px;
   }
 }
 
 @media (max-width: 1023px) {
   .photo-grid {
-    gap: 16px;
     margin-top: 81px;
     margin-left: 24px;
     margin-right: 24px;
+    column-gap: 16px;
+    row-gap: 13px;
   }
 }
 
 @media (max-width: 767px) {
   .photo-grid {
-    gap: 12px;
     margin-top: 64px;
     margin-left: 16px;
     margin-right: 16px;
+    row-gap: 8px;
   }
 }
