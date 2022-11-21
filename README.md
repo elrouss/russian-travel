@@ -1,6 +1,6 @@
 <div>
-  <a href="https://ibb.co/f07tDYb"><img src="https://i.ibb.co/pXpZhvg/2022-11-21-03-16-03.png" alt="2022-11-21-03-16-03" border="0" width="300"></a>
-  <a href="https://ibb.co/6rZnxDq"><img src="https://i.ibb.co/KbG0kV8/2022-11-21-03-19-02.png" alt="2022-11-21-03-19-02" border="0" width="300"></a>
+  <a href="https://ibb.co/f07tDYb"><img src="https://i.ibb.co/pXpZhvg/2022-11-21-03-16-03.png" alt="2022-11-21-03-16-03" border="0" width="360"></a>
+  <a href="https://ibb.co/6rZnxDq"><img src="https://i.ibb.co/KbG0kV8/2022-11-21-03-19-02.png" alt="2022-11-21-03-19-02" border="0" width="360"></a>
 </div>
 
 # Проект: "Путешествия по России"
